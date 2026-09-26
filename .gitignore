@@ -1,0 +1,11 @@
+# Visual Studio
+.vs/
+*.user
+
+# Build output
+x64/
+Debug/
+Release/
+
+# Temporary/generated project folders
+project-.*\/
