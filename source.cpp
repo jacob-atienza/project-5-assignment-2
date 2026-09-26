@@ -39,5 +39,10 @@ int main(void) {
 
 		studentNames.push_back(student);
 	}
+	#ifdef _DEBUG
+		for (int i = 0; i < studentNames.size(); i++) {
+			cout << studentNames[i].firstName << " " << studentNames[i].lastName << endl;
+		}
+	#endif
 	return 1;
 }
